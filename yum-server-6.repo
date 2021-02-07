@@ -1,23 +1,23 @@
 [rhel-6-server-rpms]
 name = Red Hat Enterprise Linux 6 Server (RPMs)
-baseurl = ${YUM_SERVER_URL}/rhel-6-server-rpms
+baseurl = YUM_SERVER_URL/rhel-6-server-rpms
 enabled = 1
 gpgcheck = 0
 
 [rhel-6-server-extras-rpms]
 name = Red Hat Enterprise Linux 6 Server - Extras (RPMs)
-baseurl = ${YUM_SERVER_URL}/rhel-6-server-extras-rpms
+baseurl = YUM_SERVER_URL/rhel-6-server-extras-rpms
 enabled = 1
 gpgcheck = 0
 
 [rhel-ha-for-rhel-6-server-rpms]
 name = Red Hat Enterprise Linux High Availability (for RHEL 6 Server) (RPMs)
-baseurl = ${YUM_SERVER_URL}/rhel-ha-for-rhel-6-server-rpms
+baseurl = YUM_SERVER_URL/rhel-ha-for-rhel-6-server-rpms
 enabled = 0
 gpgcheck = 0
 
 [rhel-rs-for-rhel-6-server-rpms]
 name = Red Hat Enterprise Linux Resilient Storage (for RHEL 6 Server) (RPMs)
-baseurl = ${YUM_SERVER_URL}/rhel-ha-for-rhel-6-server-rpms
+baseurl = YUM_SERVER_URL/rhel-ha-for-rhel-6-server-rpms
 enabled = 0
 gpgcheck = 0
