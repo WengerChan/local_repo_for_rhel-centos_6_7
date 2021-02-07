@@ -25,7 +25,7 @@ subscription-manager attach --pool=8a85f98154ef8eb40154f1b1d3620670
 - (4) 关闭系统所有仓库。 
 
 ```bash
-subscription-manager repos --disable=*
+subscription-manager repos --disable="*"
 ```
 
 - (5) 仅打开系统rhel7仓库。
