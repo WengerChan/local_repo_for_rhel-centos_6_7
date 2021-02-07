@@ -117,7 +117,7 @@ createrepo /repos/rhel-7-server-rpms/ -o /repos/rhel-7-server-rpms
 
 > `createrepo` 默认在当前目录下生成 `repodata/`目录, 可通过 `-o` 指定
 
-> `baseurl` : Must be a URL to the directory where the yum repository's `repodata' directory lives. Can be an ++http://++, ++ftp://++ or ++file://++ URL.
+> `baseurl` : Must be a URL to the directory where the yum repository's `repodata' directory lives. Can be an **http://**, **ftp://** or **file://** URL.
 
 yum命令下载rpm包的路径由两部分组成:
 
