@@ -1,0 +1,65 @@
+[rhel-8-for-x86_64-appstream-rpms]
+name = rhel-8-for-x86_64-appstream-rpms
+baseurl = YUM_SERVER_URL/rhel-8-for-x86_64-appstream-rpms
+enabled = 1
+gpgcheck = 0
+
+[rhel-8-for-x86_64-baseos-rpms]
+name = rhel-8-for-x86_64-baseos-rpms
+baseurl = YUM_SERVER_URL/rhel-8-for-x86_64-baseos-rpms
+enabled = 1
+gpgcheck = 0
+
+[rhel-8-for-x86_64-highavailability-rpms]
+name = rhel-8-for-x86_64-highavailability-rpms
+baseurl = YUM_SERVER_URL/rhel-8-for-x86_64-highavailability-rpms
+enabled = 1
+gpgcheck = 0
+
+[rhel-8-for-x86_64-resilientstorage-rpms]
+name = rhel-8-for-x86_64-resilientstorage-rpms
+baseurl = YUM_SERVER_URL/rhel-8-for-x86_64-resilientstorage-rpms
+enabled = 1
+gpgcheck = 0
+
+[rhel-8-for-x86_64-appstream-debug-rpms]
+name = rhel-8-for-x86_64-appstream-debug-rpms
+baseurl = YUM_SERVER_URL/rhel-8-for-x86_64-appstream-debug-rpms
+enabled = 1
+gpgcheck = 0
+
+[rhel-8-for-x86_64-baseos-debug-rpms]
+name = rhel-8-for-x86_64-baseos-debug-rpms
+baseurl = YUM_SERVER_URL/rhel-8-for-x86_64-baseos-debug-rpms
+enabled = 1
+gpgcheck = 0
+
+[epel]
+name = epel
+baseurl = YUM_SERVER_URL/epel
+enabled = 1
+gpgcheck = 0
+
+[epel-modular]
+name = epel-modular
+baseurl = YUM_SERVER_URL/epel-modular
+enabled = 1
+gpgcheck = 0
+
+[codeready-builder-for-rhel-8-x86_64-rpms]
+name = codeready-builder-for-rhel-8-x86_64-rpms
+baseurl = YUM_SERVER_URL/codeready-builder-for-rhel-8-x86_64-rpms
+enabled = 1
+gpgcheck = 0
+
+[ansible-2-for-rhel-8-x86_64-rpms]
+name = ansible-2-for-rhel-8-x86_64-rpms
+baseurl = YUM_SERVER_URL/ansible-2-for-rhel-8-x86_64-rpms
+enabled = 1
+gpgcheck = 0
+
+[ansible-2-for-rhel-8-x86_64-debug-rpms]
+name = ansible-2-for-rhel-8-x86_64-debug-rpms
+baseurl = YUM_SERVER_URL/ansible-2-for-rhel-8-x86_64-debug-rpms
+enabled = 1
+gpgcheck = 0
